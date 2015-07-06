@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="header">#33b7e7</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue_less">#33b7e7</color>
+    <color name="blue_light">#0099cc</color>
+    <color name="blue_light_tran">#330099cc</color>
+    <color name="blue">#007197</color>
+    <color name="blue_dark">#004a63</color>
+    <color name="green">#00cc33</color>
+    <color name="gray_light">#beb5b7</color>
+    <color name="gray_light_tran">#33beb5b7</color>
+    <color name="gray_dark">#b1b1af</color>
+    <color name="gray_dark_tran">#33394337</color>
+    <color name="gray_deep">#777777</color>
+    <color name="gray_deep_tran">#aa777777</color>
+    <color name="red">#cc0000</color>
+    <color name="orange">#ff5328</color>
+    <color name="cyan">#30ff88</color>
+    <color name="tran">#00000000</color>
+    <color name="base">#efefef</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="background">#E0DED9</color>
+    <color name="pink">#FF0F85</color>
+    <color name="purple">#8541AE</color>
+    <color name="yellow">#FF8A00</color>
+    <color name="alblack">#99000000</color>
+
+    <color name="orange_button">#F54F00</color>
+    <color name="blue_delete_background">#3591E7</color>
+    <color name="blue_selected_tab">#0491E3</color>
+</resources>

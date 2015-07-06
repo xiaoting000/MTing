@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClientMyfcd</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edittext_hint"><i>我去</i></string>
+    <string name="sendbutton_text">去吧</string>
+
+</resources>

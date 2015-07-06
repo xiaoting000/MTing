@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m_bg_records"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_bottom_widgets"
+        android:id="@+id/ll_widgets"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_naqu"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/activity_bottom_button_height"
+            android:layout_weight="6"
+            android:gravity="bottom"
+            android:textColor="@color/black"
+            android:hint="@string/edittext_hint"
+            android:paddingLeft="2dp"
+            android:textColorHint="@color/gray_light" />
+
+        <Button
+            android:id="@+id/bt_qu"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/activity_bottom_button_height"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="3dp"
+            android:text="@string/sendbutton_text" />
+        
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/activity_bottom_button_height"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:src="@android:drawable/ic_menu_add"/>
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/lv_records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:divider="@null"
+        android:layout_above="@id/ll_widgets"/>
+
+</RelativeLayout>
