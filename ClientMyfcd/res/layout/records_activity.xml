@@ -11,7 +11,8 @@
         android:id="@+id/ll_widgets"
         android:layout_alignParentBottom="true"
         android:background="@color/white"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:focusable="true" >
 
         <EditText
             android:id="@+id/et_naqu"

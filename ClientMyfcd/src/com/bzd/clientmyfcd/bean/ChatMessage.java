@@ -2,7 +2,11 @@ package com.bzd.clientmyfcd.bean;
 
 import java.util.Date;
 
+import com.lidroid.xutils.db.annotation.Transient;
+
 public class ChatMessage {
+	@Transient
+	private int id;
 	private int sender;
 	private int receiver;
     private Date create_at;
