@@ -83,7 +83,7 @@ public class ClientMainActivity extends Activity{
 			@Override
 			public void run() {
 				try {
-					clientS = new Socket("172.16.1.109", 8899);
+					clientS = new Socket("127.0.0.1", 8899);
 					dInputStream =  new DataInputStream(clientS.getInputStream());
 					dOutputStream = new DataOutputStream(clientS.getOutputStream());
 					while (true) {
